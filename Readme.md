@@ -96,5 +96,82 @@ The relational schema is mapped directly to SQL Server:
 
 ### Clone the Repository
 ```bash
-git clone [https://github.com/snaddans/Student-Registration-WebApp.git](https://github.com/snaddans/Student-Registration-WebApp.git)
+git clone https://github.com/snaddans/Student-Registration-WebApp.git
 cd Student-Registration-WebApp
+```
+
+### Restore Packages
+```bash
+dotnet restore
+```
+
+### Update Database
+```bash
+dotnet ef database update
+```
+*(Note: Database initialization and migrations run automatically on the first application launch.)*
+
+### Run the Application
+```bash
+dotnet run
+```
+
+---
+
+## Default Administrator
+
+The database initializer creates a default administrator account with the following credentials:
+*   **Email:** `admin@studentapp.com`
+*   **Password:** `Admin@123`
+
+---
+
+## Screenshots
+
+**Home Page**  
+![Home Page](3_anonymous_navigation.png)
+
+**Login**  
+*(Add login screenshot path here)*
+
+**Student Dashboard**  
+![Student Dashboard](4_successful_login.png)
+
+**Student Profile**  
+*(Add student profile screenshot path here)*
+
+**Course Management**  
+![Course Management](1_admin_navigation.png)
+
+**Student Directory**  
+*(Add student directory screenshot path here)*
+
+**Access Denied**  
+![Access Denied](6_access_denied.jpg)
+
+---
+
+## Future Improvements
+
+*   **Email Verification:** Require email confirmation for new user accounts.
+*   **Password Reset:** Implement password recovery using secure tokens.
+*   **Roster Pagination:** Add pagination to the student directory and course index for scalability.
+*   **Course Capacity:** Limit the maximum number of students that can register for a single course.
+*   **Enrollment Logs:** Log registration history for auditing purposes.
+
+---
+
+## Learning Outcomes
+
+This project demonstrates:
+*   Setting up ASP.NET Core Identity with custom user properties.
+*   Designing relational databases and configuring foreign keys and indexes using Entity Framework Core.
+*   Implementing role-based security using routing filters and custom access-denied pages.
+*   Building responsive server-rendered views with Bootstrap 5.
+
+---
+
+## Author
+*   **Author:** Shashank Dubey
+*   **Academic Level:** B.Tech Computer Science (AI & ML)
+*   **Purpose:** Internship Assignment
