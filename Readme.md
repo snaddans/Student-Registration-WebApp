@@ -129,25 +129,16 @@ The database initializer creates a default administrator account with the follow
 ## Screenshots
 
 **Home Page**  
-![Home Page](3_anonymous_navigation.png)
-
-**Login**  
-*(Add login screenshot path here)*
+<img width="2800" height="1800" alt="3_anonymous_navigation" src="https://github.com/user-attachments/assets/b43c812f-f93a-4da3-b1ac-fef770ab08ff" />
 
 **Student Dashboard**  
-![Student Dashboard](4_successful_login.png)
-
-**Student Profile**  
-*(Add student profile screenshot path here)*
+<img width="2800" height="1800" alt="4_successful_login" src="https://github.com/user-attachments/assets/02b1ae47-0832-4ceb-9dfb-2e2991ffb50c" />
 
 **Course Management**  
-![Course Management](1_admin_navigation.png)
-
-**Student Directory**  
-*(Add student directory screenshot path here)*
+<img width="2800" height="1800" alt="1_admin_navigation" src="https://github.com/user-attachments/assets/2d5febcd-413f-456b-aa30-eac88f0af467" />
 
 **Access Denied**  
-![Access Denied](6_access_denied.jpg)
+<img width="1024" height="572" alt="6_access_denied" src="https://github.com/user-attachments/assets/d51136e6-63e6-4560-aba7-f127ceeeb240" />
 
 ---
 
