@@ -46,6 +46,3 @@ To run this project locally, follow these steps:
 
 ## Author
 **Shashank Dubey**
-
-## License
-This project is open-source and available under the [MIT License](LICENSE).
